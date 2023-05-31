@@ -1,41 +1,52 @@
-* {
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    box-sizing: border-box;
-}
+    padding: 0;
+  }
 
-header {
-    width: 100%;
-    background-color: rgb(3, 3, 3);
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo-imagem {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    border-radius: 25px;
-}
-
-.container-logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo-texto {
-    margin-left: 20px;
+/* ------------------------------------------ Cabeçalho ------------------------------------- */
+  
+  .Cabeçalho {
+    background-color: rgb(0, 0, 65);
     color: white;
-    align-items: center;
-}
+    padding: 20px;
+    text-align: center;
+  }
 
-.menu li {
-    display: inline-block;
-}
+  .img {
+    text-align: left;
+  }
+  
+  h1 {
+    margin-top: 10px;
+  }
 
-.menu li a {
-    font-size: 24px;
+/* ------------------------------------------ Sobre mim -------------------------------------- */
+
+  .Sobre {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+/* ----------------------------------------- Informações ------------------------------------- */
+
+  .info {
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+/* -------------------------------------------- Rodape ----------------------------------------*/
+  
+  .footer {
+    background-color: rgb(0, 0, 65);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-   
-}
+  }
+  
